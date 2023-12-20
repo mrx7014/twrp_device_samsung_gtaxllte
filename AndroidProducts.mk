@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_gtaxllte.mk
+    $(LOCAL_DIR)/omni_gtaxllte.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_gtaxllte-user \
-    twrp_gtaxllte-userdebug \
-    twrp_gtaxllte-eng
+    omni_gtaxllte-user \
+    omni_gtaxllte-userdebug \
+    omni_gtaxllte-eng
