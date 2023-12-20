@@ -43,7 +43,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/gtaxllte/include
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/gtaxllte/recovery/root/etc/recovery.fstab
 
 # 000RU = recovery kernel, 000KU = system kernel
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board FPRPGTAX000RU
