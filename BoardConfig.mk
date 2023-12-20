@@ -8,7 +8,7 @@ TARGET_SOC := exynos7870
 TARGET_BOOTLOADER_BOARD_NAME := universal7870
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/samsung/gtaxllte/system.prop
 
 # Architecture
 TARGET_ARCH := arm64
@@ -32,7 +32,7 @@ TARGET_OTA_ASSERT_DEVICE := gtaxllte
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := twrp-gtaxllte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gtaxl
+TARGET_KERNEL_SOURCE := kernel/samsung/gtaxllte
 
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
