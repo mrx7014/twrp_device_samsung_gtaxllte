@@ -40,7 +40,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 
 TARGET_COPY_OUT_VENDOR := vendor
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/gtaxllte/prebuilt/kernel
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/gtaxllte/include
 TARGET_RECOVERY_FSTAB := device/samsung/gtaxllte/recovery/root/etc/recovery.fstab
